@@ -5,30 +5,8 @@ import menuItems from './footer.data';
 export default function Footer() {
   return (
     <footer sx={styles.footer}>
-      <Container sx={styles.footer.container}>
-        <Box sx={styles.footer.footerTopArea}>
-          {menuItems.map(({ header, items }, i) => (
-            <Box sx={styles.footer.menus} key={i}>
-              <Heading sx={styles.footer.heading}>{header}</Heading>
-              <nav>
-                {items.map(({ path, label }, i) => (
-                  <Link
-                    path={path}
-                    key={i}
-                    label={label}
-                    sx={styles.footer.link}
-                  />
-                ))}
-              </nav>
-            </Box>
-          ))}
-        </Box>
-      </Container>
       <Text sx={styles.footer.copyright}>
-        All right reserved - Design & Developed by
-        <Link path="https://redq.io/" target="_blank">
-          RedQ, Inc
-        </Link>
+        All right reserved - HandsFreeBrowse
       </Text>
     </footer>
   );

@@ -3,6 +3,7 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from '../components/section-header';
 import FeatureCardColumn from 'components/feature-card-column.js';
+
 import Vector from 'assets/key-feature/vector.svg';
 import Editing from 'assets/key-feature/editing.svg';
 import Speed from 'assets/key-feature/speed.svg';
@@ -11,26 +12,26 @@ const data = [
   {
     id: 1,
     imgSrc: Vector,
-    altText: 'Vector',
-    title: 'Vector Editing',
+    altText: 'Gesture Recognition',
+    title: 'Gesture Recognition',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Utilizing computer vision to analyze and interpret human gestures to respond to specific commands, such as moving a finger upwards to scroll up the page, swiping left to go to the left tab, and so on.',
   },
   {
     id: 2,
     imgSrc: Editing,
-    altText: 'Monitoring',
-    title: 'Customize & Monitoring',
+    altText: 'Voice Commands',
+    title: 'Voice Commands',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Using Natural Language Processing and Speech Recognition to perform specified tasks such as “Open new tab”, “Higher volume”, “Open Discord”, and much more!',
   },
   {
     id: 3,
     imgSrc: Speed,
-    altText: 'Quality',
-    title: 'Quality & Short-period',
+    altText: 'Speen',
+    title: 'Highly Responsive',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Fast and accurate resposes to your gestures and voice commands to provide a seamless user experience.',
   },
 ];
 
@@ -40,7 +41,7 @@ export default function KeyFeature() {
       <Container>
         <SectionHeader
           slogan="Quality features"
-          title="Meet exciting feature of app"
+          title="Meet the exciting features of HandsFreeBrowse"
         />
 
         <Grid sx={styles.grid}>

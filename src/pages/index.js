@@ -28,17 +28,17 @@ export default function IndexPage() {
       <ThemeProvider theme={theme}>
         <StickyProvider>
           <Layout>
-            <SEO title="Startup Landing 004" />
+            <SEO title="HandsFreeBrowse" />
             <Banner />
             <KeyFeature />
-            <CoreFeature />
-            <Feature />
-            <PartnerSection />
+            {/* <CoreFeature /> */}
+            {/* <Feature /> */}
+            {/* <PartnerSection /> */}
             <WorkFlow />
             <TestimonialCard />
-            <SecurePayment />
+            {/* <SecurePayment /> */}
             <Package />
-            <Faq />
+            {/* <Faq /> */}
           </Layout>
         </StickyProvider>
       </ThemeProvider>
