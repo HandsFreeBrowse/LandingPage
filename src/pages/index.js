@@ -20,19 +20,16 @@ export default function IndexPage() {
       clientId="4inWUGt9nYVGAFKHXXNlMsanZXUHMYl8"
       redirectUri="https://handsfreee.web.app/"
     >
-      <ChakraProvider>
         <ThemeProvider theme={theme}>
           <StickyProvider>
             <Layout>
-              <SEO title="Hands Free AI" />
+              <SEO title="HandsFree AI" />
               <Banner />
               <KeyFeature />
-
               <WorkFlow />
             </Layout>
           </StickyProvider>
         </ThemeProvider>
-      </ChakraProvider>
     </Auth0Provider>
   );
 }

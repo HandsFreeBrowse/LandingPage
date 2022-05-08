@@ -25,7 +25,6 @@ export default function WorkFlow() {
             paddingBottom: "50%",
             position: "relative",
             height: "0",
-            marginLeft:"190px",
             textAlign: 'center',
           }}
         >
