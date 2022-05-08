@@ -18,7 +18,7 @@ const data = [
       'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
     avatar: Avatar1,
     name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    designation: '@Farhan Rehman',
     review: 4,
   },
   {
@@ -80,7 +80,7 @@ export default function TestimonialCard() {
   return (
     <section id="testimonial" sx={{ variant: 'section.testimonial' }}>
       <Container>
-        <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
+        <SectionHeader slogan="Meet the Team" title="The people behind HandsFreeBrowse" />
       </Container>
       <Box sx={styles.carouselWrapper}>
         <Carousel
@@ -107,7 +107,6 @@ export default function TestimonialCard() {
         >
           {data.map((item) => (
             <Box sx={styles.reviewCard} key={`testimonial--key${item.id}`}>
-              <Rating rating={item.review} />
               <Heading as="h3" sx={styles.title}>
                 {item.title}
               </Heading>

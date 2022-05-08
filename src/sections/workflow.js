@@ -34,8 +34,8 @@ const YoutubeEmbed = () => (
   <div styles={styles.videoResponsive}>
     <iframe
       styles={styles.videoResponsiveIframe}
-      // width="853"
-      // height="480"
+      allowfullscreen=""
+      frameborder="0"
       src={`https://www.youtube.com/embed/p6sCsOdqXQw`}
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -47,7 +47,7 @@ const YoutubeEmbed = () => (
 
 export default function WorkFlow() {
   return (
-    <section sx={styles.workflow}>
+    <section sx={styles.workflow} id="demo">
       <Container>
         <SectionHeader
           slogan="Demo"
@@ -55,7 +55,33 @@ export default function WorkFlow() {
           isWhite={true}
         />
 
-        <YoutubeEmbed />
+        <div
+          style={{
+            overflow: "hidden",
+            paddingBottom: "50%",
+            position: "relative",
+            height: "0",
+            textAlign: 'center',
+          }}
+        >
+          <iframe
+            width="853"
+            height="480"
+            frameBorder="0"
+          
+            styles={{
+              left: "0",
+              top: "0",
+              height: "100%",
+              width: "100%",
+              position: "absolute",
+            }}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="Embedded youtube"
+            src="https://www.youtube.com/embed/s5Hf1rLZhns"
+          ></iframe>
+        </div>
       </Container>
     </section>
   );
@@ -68,19 +94,6 @@ const styles = {
     backgroundRepeat: `no-repeat`,
     backgroundPosition: "center center",
     backgroundSize: "cover",
-    py: [8, null, 9, null, null, 10],
+    py: [8, null, 9, null, null, 5],
   },
-  videoResponsive: {
-    overflow: 'hidden',
-    paddingBottom: '56.25%',
-    position: 'relative',
-    height: '0',
-  },
-  videoResponsiveIframe: {
-    left: '0',
-    top: '0',
-    height: '100%',
-    width: '100%',
-    position: 'absolute',
-  }
 };

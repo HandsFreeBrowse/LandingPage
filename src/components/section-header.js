@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, Text, Heading } from 'theme-ui';
+import Typewriter from 'typewriter-effect/dist/core';
 
 export default function SectionHeader({ title, slogan, isWhite }) {
   return (
@@ -21,6 +22,7 @@ export default function SectionHeader({ title, slogan, isWhite }) {
           color: isWhite ? 'white' : 'heading_secondary',
         }}
       >
+
         {title}
       </Heading>
     </Box>
