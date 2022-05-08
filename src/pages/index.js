@@ -8,10 +8,7 @@ import Banner from "sections/banner";
 import KeyFeature from "sections/key-feature";
 import CoreFeature from "sections/core-feature";
 import Feature from "sections/feature";
-import PartnerSection from "sections/partner";
 import WorkFlow from "sections/workflow";
-import Package from "sections/package";
-
 
 import { ChakraProvider } from '@chakra-ui/react'
 import { Auth0Provider } from "@auth0/auth0-react";

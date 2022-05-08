@@ -94,7 +94,6 @@ export default function VerifyDownload() {
           // if true
           setValidity(true);
           
-          Start download of code
           var url="https://github.com/HandsFreeBrowse/App/archive/refs/heads/main.zip";
           window.open(url, '_blank');
 
