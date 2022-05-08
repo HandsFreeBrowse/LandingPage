@@ -2,10 +2,10 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'Have you ever been in a situation where you just couldn’t use the keyboard or mouse on your computer? For any reason? Well, we’ve all been there! HandsFreeBrowse is an AI-based program created to help you navigate your computer with no physical touch at all!',
+  description = 'Have you ever been in a situation where you just couldn’t use the keyboard or mouse on your computer? For any reason? Well, we’ve all been there! HandsFree is an AI-based program created to help you navigate your computer with no physical touch at all!',
   author = 'Farhan Rehman',
   meta,
-  title = 'HandsFreeBrowse',
+  title = 'HandsFree',
 }) {
   const metaData = [
     {

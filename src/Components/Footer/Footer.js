@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer sx={styles.footer}>
       <Text sx={styles.footer.copyright}>
-        All right reserved - HandsFreeBrowse
+        All right reserved - HandsFree
       </Text>
     </footer>
   );

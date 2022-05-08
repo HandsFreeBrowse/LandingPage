@@ -21,21 +21,21 @@ import { Auth0Provider } from "@auth0/auth0-react";
 export default function IndexPage() {
   return (
     <Auth0Provider
-    domain="handsfreebrowse.us.auth0.com"
+    domain="HandsFree.us.auth0.com"
     clientId="4inWUGt9nYVGAFKHXXNlMsanZXUHMYl8"
-    redirectUri='http://localhost:4000/'
+    redirectUri='https://handsfreee.web.app/'
   >
       <ThemeProvider theme={theme}>
         <StickyProvider>
           <Layout>
-            <SEO title="HandsFreeBrowse" />
+            <SEO title="Hands Free AI" />
             <Banner />
             <KeyFeature />
             {/* <CoreFeature /> */}
             {/* <Feature /> */}
             {/* <PartnerSection /> */}
             <WorkFlow />
-            <TestimonialCard />
+            {/* <TestimonialCard /> */}
             {/* <SecurePayment /> */}
             {/* <Package /> */}
             {/* <Faq /> */}

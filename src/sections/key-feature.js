@@ -41,7 +41,7 @@ export default function KeyFeature() {
       <Container>
         <SectionHeader
           slogan="Quality features"
-          title="Meet the exciting features of HandsFreeBrowse"
+          title="Meet the exciting features of HandsFree"
         />
 
         <Grid sx={styles.grid}>

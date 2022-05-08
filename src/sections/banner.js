@@ -51,7 +51,7 @@ export default function Banner() {
             The ultimate touch-free browsing experience
           </Heading>
           <Text as="p" variant="heroSecondary">
-            <b>HandsFreeBrowse</b> is an AI-based program created to help 
+            <b>HandsFree</b> is an AI-based program created to help 
             you navigate your computer with <b>no physical touch at all!</b> 
           </Text>
           <Flex>
@@ -101,7 +101,7 @@ export default function Banner() {
         </Box>
 
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerThumb} alt="banner" />
+          <Image src={BannerThumb} alt="banner" style={{MarginRight:"128px !important", MaxWidth:"40% !important"}} />
         </Box>
       </Container>
     </section>
@@ -133,13 +133,13 @@ const styles = {
     imageBox: {
       display: ['none', null, null, 'block'],
       justifyContent: 'center',
-      ml: [0, null, null, '-110px', '-115px', '-150px', '-210px', '-270px'],
-      mr: [0, null, null, '-145px', '-160px', '-180px', '-220px', '-290px'],
-      mt: [0, null, null, '40px', 4, 7, 0],
+      ml: [0, null, null,  null,  null,  null, '195px', '246px'],
+      mr: [0, null, null,  null,  null,  null, '-220px', '-200px'],
+      mt: [0, null, null,  null,  null,  null, 7, 0],
       mb: [0, null, null, null, '-45px', '-70px', null, '-115px'],
       overflow: 'hidden',
       textAlign: 'right',
-      width: '100%',
+      width: '33%',
     },
   },
   sponsorTitle: {
