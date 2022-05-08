@@ -26,6 +26,7 @@ export default function WorkFlow() {
             position: "relative",
             height: "0",
             textAlign: 'center',
+            marginLeft:"190px"
           }}
         >
           <iframe

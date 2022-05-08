@@ -20,6 +20,7 @@ export default function IndexPage() {
       clientId="4inWUGt9nYVGAFKHXXNlMsanZXUHMYl8"
       redirectUri="https://handsfreee.web.app/"
     >
+      <ChakraProvider>
         <ThemeProvider theme={theme}>
           <StickyProvider>
             <Layout>
@@ -30,6 +31,7 @@ export default function IndexPage() {
             </Layout>
           </StickyProvider>
         </ThemeProvider>
+      </ChakraProvider>
     </Auth0Provider>
   );
 }
