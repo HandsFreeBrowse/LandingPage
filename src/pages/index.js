@@ -23,7 +23,7 @@ export default function IndexPage() {
     <Auth0Provider
       domain="handsfreebrowse.us.auth0.com"
       clientId="4inWUGt9nYVGAFKHXXNlMsanZXUHMYl8"
-      redirectUri="http://localhost:3000/"
+      redirectUri="https://handsfreee.web.app/"
     >
       <ChakraProvider>
         <ThemeProvider theme={theme}>
