@@ -70,10 +70,6 @@ export default function Banner() {
               <VerifyDownload />            
             </Button>            
           )}
-
-          
-
-
             <>
               <ModalVideo
                 channel="youtube"

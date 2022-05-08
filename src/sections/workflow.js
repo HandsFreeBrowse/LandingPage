@@ -10,12 +10,13 @@ import ArrowEven from "assets/arrowEven.png";
 
 
 export default function WorkFlow() {
+
   return (
     <section sx={styles.workflow} id="demo">
       <Container>
         <SectionHeader
           slogan="Demo"
-          title="Let’s see how it works"
+          title="Let’s see how the App it works"
           isWhite={true}
         />
 
@@ -44,9 +45,45 @@ export default function WorkFlow() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             title="Embedded youtube"
-            src="https://www.youtube.com/embed/O-DrJh--LsQ"
+            src="https://www.youtube.com/embed/YqdDn3kraKw"
           ></iframe>
         </div>
+
+        <SectionHeader
+          slogan="Demo"
+          title="Let’s see how the Website uses Auth0 and OpenScreen"
+          isWhite={true}
+        />
+
+<div
+          style={{
+            overflow: "hidden",
+            paddingBottom: "50%",
+            position: "relative",
+            height: "0",
+            textAlign: 'center',
+            marginLeft:"190px"
+          }}
+        >
+          <iframe
+            width="853"
+            height="480"
+            frameBorder="0"
+          
+            styles={{
+              left: "0",
+              top: "0",
+              height: "100%",
+              width: "100%",
+              position: "absolute",
+            }}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="Embedded youtube"
+            src="https://www.youtube.com/embed/NbMB8k6uYd0"
+          ></iframe>
+        </div>
+
       </Container>
     </section>
   );
