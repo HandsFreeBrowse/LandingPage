@@ -11,6 +11,9 @@ import BannerThumb from 'assets/banner-thumb.png';
 // auth0-react
 import { useAuth0 } from "@auth0/auth0-react";
 
+// import popup component
+import VerifyDownload from '../components/VerifyDownload/VerifyDownload';
+
 import client1 from 'assets/sponsor/opencv.svg';
 import client2 from 'assets/sponsor/mediapipe.svg';
 
@@ -64,9 +67,12 @@ export default function Banner() {
 
           {isAuthenticated && (
             <Button variant="whiteButton" aria-label="Get Started" href="#">
-              Download
-            </Button>
+              <VerifyDownload />            
+            </Button>            
           )}
+
+          
+
 
             <>
               <ModalVideo
