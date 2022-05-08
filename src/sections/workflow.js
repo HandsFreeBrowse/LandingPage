@@ -7,43 +7,7 @@ import PatternBG from "assets/patternBG.png";
 import ArrowOdd from "assets/arrowOdd.png";
 import ArrowEven from "assets/arrowEven.png";
 
-const data = [
-  {
-    id: 1,
-    title: "Set disbursement Instructions",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
-  },
-  {
-    id: 2,
-    title: "Assembly retrieves funds from your account",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
-  },
-  {
-    id: 3,
-    title: "Assembly initiates disbursement",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
-  },
-  {
-    id: 4,
-    title: "Customer receives funds payment",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
-  },
-];
 
-const YoutubeEmbed = () => (
-  <div styles={styles.videoResponsive}>
-    <iframe
-      styles={styles.videoResponsiveIframe}
-      allowfullscreen=""
-      frameborder="0"
-      src={`https://www.youtube.com/embed/p6sCsOdqXQw`}
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-      title="Embedded youtube"
-    />
-  </div>
-);
 
 export default function WorkFlow() {
   return (
@@ -61,6 +25,7 @@ export default function WorkFlow() {
             paddingBottom: "50%",
             position: "relative",
             height: "0",
+            marginLeft:"190px",
             textAlign: 'center',
           }}
         >

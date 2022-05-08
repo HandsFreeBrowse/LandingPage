@@ -10,10 +10,8 @@ import CoreFeature from "sections/core-feature";
 import Feature from "sections/feature";
 import PartnerSection from "sections/partner";
 import WorkFlow from "sections/workflow";
-import TestimonialCard from "sections/testimonial";
-import SecurePayment from "sections/secure-payment";
 import Package from "sections/package";
-import Faq from "sections/faq";
+
 
 import { ChakraProvider } from '@chakra-ui/react'
 import { Auth0Provider } from "@auth0/auth0-react";
@@ -32,14 +30,8 @@ export default function IndexPage() {
               <SEO title="Hands Free AI" />
               <Banner />
               <KeyFeature />
-              {/* <CoreFeature /> */}
-              {/* <Feature /> */}
-              {/* <PartnerSection /> */}
+
               <WorkFlow />
-              {/* <TestimonialCard /> */}
-              {/* <SecurePayment /> */}
-              {/* <Package /> */}
-              {/* <Faq /> */}
             </Layout>
           </StickyProvider>
         </ThemeProvider>
